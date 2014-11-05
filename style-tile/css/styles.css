@@ -1,0 +1,114 @@
+/* Set Your Own Margin & Padding */
+
+h2{
+	font-family:'Helvetica', serif;
+	color: #FF0000;
+}
+	
+
+h2, h3, p {
+	margin: 0;
+}
+
+h2{
+	font-size: 42px;
+}
+
+h3{
+	margin: 10px;
+	font-family: 'Architects Daughter';
+	font-size: 26px;
+
+}
+
+h4{
+	font-weight: bold;
+	color:#FFCC00;
+}
+
+p{
+	font-size: 16px;
+}
+
+a {
+	color: #FFCC00;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3,
+.imagery-4 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1{
+	background-color: #FF0000;
+}
+
+.color-2{
+	background-color: black;
+}
+
+.color-3{
+	background-color: white;
+}
+
+.color-4{
+	background-color: #FFCC00;
+}
+
+.pattern-1{
+	background: url("../img/rice_texture.jpg");
+	background-size: 100%;
+}
+
+.pattern-2{
+	background: url("../img/fish_texture.jpg");
+	background-size: 100%;
+}
+
+.pattern-3{
+	background: url("../img/seaweed_texture.jpg");
+	background-size: 100%;
+}
+
+.imagery-1{
+	background: url("../img/logo_maru.jpg");
+	background-size: 100%;
+}
+
+.imagery-2{
+	background: url("../img/treeblossoms.png");
+	background-size: 50px 50px;
+}
+
+.imagery-3{
+	background: url("../img/banner_about.jpg");
+	background-size: 50px 50px;
+}
+
+.imagery-4{
+	background: url("../img/banner_service.jpg");
+	background-size: 50px 50px;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
